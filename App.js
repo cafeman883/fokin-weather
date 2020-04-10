@@ -9,7 +9,7 @@ const API_KEY = "14544b29e57fe161f6c020bfee3dbfca";
 
 export default class extends React.Component { 
   state = {
-    isLoading: true
+    isLoading: true 
   }   
 
   getWeather = async(latitude, longitude) => {
