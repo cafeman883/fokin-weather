@@ -4,7 +4,12 @@ import { StyleSheet, Text, View, TouchableWithoutFeedback } from 'react-native';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>hello!</Text>
+      <View style={styles.yellowView}>
+        
+      </View>
+      <View style={styles.blueView}>
+        
+      </View>
     </View>
   );
 }
@@ -12,10 +17,31 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    alignItems: 'center',
+    //alignItems: 'center',
     justifyContent: 'center'
   },
   text: {
     fontSize: 72
+  },
+  yellowView: {
+    flex: 1, // flex로 레이아웃 잡는걸 추천한다. 비율임.
+    backgroundColor: "yellow"
+  },
+  blueView: {
+    flex: 2,
+    backgroundColor: "blue"
   }
+  
 });
+ 
+
+
+
+
+
+
+
+
+
+
+
